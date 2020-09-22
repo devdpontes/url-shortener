@@ -1,0 +1,10 @@
+<html lang="en">
+  <%- include('./partials/head'); %>
+  <body>
+    <h1>URL shortener</h1>
+    <form action="/short" method="POST">
+      <label>Insert the URL to shorten: <input type="text" name="url" /></label>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+# npm dependencies
+node_modules
+
+# generated files
+db.json
+
+# system files
+*.log
+.DS_Store
+
+.vscode
